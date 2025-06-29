@@ -2,7 +2,7 @@
 
 # 🎮 Game Title
 
-![Screenshot or Logo](./path-to-your-screenshot-or-logo.png)
+![Screenshot or Logo](./Screenshot%202025-06-29%20142548.png)
 
 ## 🕹️ Description
 
@@ -13,7 +13,7 @@ For example:
 
 ## 🚀 Getting Started
 
-**Play the game here:** [Deployed Game Link](https://your-deployment-link.com)
+**Play the game here:** [Deployed Game Link](https://mohdga.github.io/js-rock-paper-scissors/)
 
 **Project Planning Materials:**  
 - [Wireframes](./planning/wireframes.png)  
