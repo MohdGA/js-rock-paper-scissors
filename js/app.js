@@ -13,7 +13,7 @@ const rockEle = document.querySelector('#rock');
 const paperEle = document.querySelector('#paper');
 const scissorEle = document.querySelector("#scissors");
 const resultDisplayEle = document.querySelector('#result-display');
-const mainEle = document.querySelector('main');
+const resetBtnEle = document.querySelector('#resetBtn');
 
 
 /*----------------- Functions -----------------*/
@@ -46,6 +46,10 @@ function compare(){
   };
 };
 
+function Reset(){
+  resultDisplayEle.textContent = "";
+};
+
 // updates our UI/html directly
 const render = () => {
   resultDisplayEle.textContent = `Computer choice is ${computerChoice} and player choice is ${playerChoice} ${msg}`;
@@ -59,3 +63,4 @@ const render = () => {
 rockEle.addEventListener('click', play);
 paperEle.addEventListener('click', play);
 scissorEle.addEventListener('click', play);
+resetBtnEle.addEventListener('click',Reset);
